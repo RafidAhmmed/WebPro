@@ -1,20 +1,24 @@
 <html>
-<title>Registration</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1:0">
+    <title>Registration</title>
+</head>
+
 
 <body class="a">
     <div class="div">
         <link rel="stylesheet" type="text/css" href="LogIn.css">
-        <form action="">
-            <form action="LogIn.html">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="Name" name="fname" minlength="4" maxlength="16" value="" required><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="" minlength="4" maxlength="16" required><br><br>
-                <input type="password" placeholder="Password" minlength="8" maxlength="30" required><br><br>
-                <input type="password" placeholder="Confirm Password" minlength="8" maxlength="30" required><br><br>
-                <input type="submit" value="Register" onclick="document.location='LogIn.html'">
-                <input type="submit" value="Already have an accnt?" onclick="document.location='LogIn.html'">
-            </form>
+        <form action="LogIn.html">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="Name" name="fname" minlength="4" maxlength="16" value="" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="" minlength="4" maxlength="16" required><br><br>
+            <input type="password" placeholder="Password" minlength="6" maxlength="20" id="pass" required><br><br>
+            <input type="password"  placeholder="Confirm Password" minlength="6" maxlength="20" id="pass" required><br><br>
+            <input type="submit" value="Register" class="button">
+            <input type="submit" value="Already have an accnt?" onclick="document.location='LogIn.html'" class="button">
+        </form>
     </div>
 </body>
 
