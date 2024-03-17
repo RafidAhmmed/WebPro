@@ -1,0 +1,16 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+#sub {
+    cursor: grab;
+}
+
+form {
+    width: 50%;
+}
